@@ -1,0 +1,32 @@
+/* Contenedor de productos destacados */
+.highlight-container {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    max-width: 60%;
+    margin: 0 auto; 
+}
+
+.highlight-item {
+    flex: 1;
+    text-align: center;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.highlight-item img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.highlight-item p {
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}

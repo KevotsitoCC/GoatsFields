@@ -1,0 +1,38 @@
+.content-section {
+    display: none; /* Oculta todas las secciones por defecto */
+    padding: 20px;
+}
+
+.content-section.active {
+    display: block; /* Muestra solo la sección activa */
+}
+
+/* CONOCENOS */
+
+.conocenos-contenidote{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+.social-icon {
+    color: white; /* Color de los iconos */
+    font-size: 24px; /* Tamaño de los iconos */
+    margin-right: 15px; /* Espacio entre iconos */
+    transition: color 0.3s; /* Transición suave para el hover */
+}
+
+.social-icon:hover {
+    color: #058ecf; /* Color al pasar el mouse */
+}
+
+.conocenos-image {
+    width: 100%; /* Asegúrate de que la imagen ocupe el ancho disponible */
+    max-width: 400px; /* Tamaño máximo para que no sea demasiado grande */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Esquinas redondeadas */
+}

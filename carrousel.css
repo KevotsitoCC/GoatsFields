@@ -1,0 +1,38 @@
+/* Carrusel */
+.carousel-container {
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+    padding: 30px;
+    background-color: #f0f0f5; /* Color de fondo más oscuro */
+    border-radius: 8px;
+    max-width: 90%; /* Ancho máximo más grande */
+    margin: 20px auto; /* Centramos el contenedor */
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    flex: 0 0 30%; /* Aumentamos el tamaño de cada item del carrusel */
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
